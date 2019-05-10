@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AvinashKomaturi/Online_Retail_Dashboard/precache-manifest.96814c5dc48b29e9d310b094f3e62cbb.js"
+  "/github.io/Online_Retail_Dashboard/precache-manifest.4a0b0fc5dee0e7a2bfcfc099b047f927.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/AvinashKomaturi/Online_Retail_Dashboard/index.html", {
+workbox.routing.registerNavigationRoute("/github.io/Online_Retail_Dashboard/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
