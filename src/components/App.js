@@ -111,22 +111,28 @@ class App extends Component {
     }
 
     totalRevenue = amRevenue + ebRevenue + etRevenue;
-    ordersTrendRegion.push({
-      id: "01",
-      value: orderesTrendne
-    }, {
-      id: "02",
-      value: orderesTrendnw
-    }, {
-      id: "03",
-      value: orderesTrendse
-    }, {
-      id: "04",
-      value: orderesTrendsw
-    }, {
-      id: "05",
-      value: orderesTrendc
-    });
+    ordersTrendRegion.push(
+      {
+        id: "01",
+        value: orderesTrendne
+      },
+      {
+        id: "02",
+        value: orderesTrendnw
+      },
+      {
+        id: "03",
+        value: orderesTrendse
+      },
+      {
+        id: "04",
+        value: orderesTrendsw
+      },
+      {
+        id: "05",
+        value: orderesTrendc
+      }
+    );
 
     selectedValue = arg;
 
@@ -196,7 +202,7 @@ class App extends Component {
           </Container>
           <Container className="navbar-nav ml-auto">
             <Container className="user-detail-section">
-              <span className="pr-2">Hi, Sean</span>
+              <span className="pr-2">Hi, Avinash</span>
               <span className="img-container">
                 <img src={UserImg} className="rounded-circle" alt="user" />
               </span>
